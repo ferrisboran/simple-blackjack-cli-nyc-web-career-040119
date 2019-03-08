@@ -29,8 +29,8 @@ def initial_round
 end
 
 def hit?
-  prompt_user
-  get_user_input
+  return prompt_user
+  return get_user_input
 end
 
 def invalid_command
