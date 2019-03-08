@@ -29,8 +29,9 @@ def initial_round
 end
 
 def hit?
-  return prompt_user
-  return get_user_input
+  prompt_user
+  get_user_input
+  input == "h" ? deal_card : break
 end
 
 def invalid_command
